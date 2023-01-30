@@ -1,0 +1,69 @@
+body{
+   margin: 0;
+   padding: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.563), rgba(0, 0, 0, 0.563)),url(./bg2.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.topbar{
+    background-color: rgba(255, 255, 255, 0.63);
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+
+.topbar h2{
+    margin: 0;
+    color: black;
+}
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.section{
+    
+    background-color: rgba(211, 211, 211, 0.514);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;    
+}
+
+input{
+    padding: 10px;
+    border: none;
+    width: 200px;
+    border-radius: 5px;
+
+}
+
+
+#label1{
+    font-weight: 1000;
+    font-size: 17px;
+}
+
+button{
+    padding: 10px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+button:hover{
+    color: black;
+    background-color: rgb(226, 226, 226);
+    transition: 0.5s;
+}
